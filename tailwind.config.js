@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
+        newbg: "rgba(58, 203, 188, .2)",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -75,6 +76,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      boxShadow: {
+        'explore': '4px 4px 0px 0px #3ACBBC',
+        'new': ' 3px 2px 25.799999237060547px 0px #FFFFFF40',
       },
     },
   },

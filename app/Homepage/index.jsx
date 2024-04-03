@@ -12,6 +12,7 @@ import cardimg from "../../assets/CardImg.png";
 import edimg from "../../assets/edimg.png";
 import Experience from "../Sections/Experience";
 import CustomImage from "../Sections/CustomImage";
+import TimelineScroll2 from "../Sections/timelineScroll2";
 
 export default function Homepage() {
   return (
@@ -299,6 +300,7 @@ export default function Homepage() {
       <Brandshowcase></Brandshowcase>
       <Newsletter></Newsletter>
       <Companies></Companies>
+      
     </>
   );
 }

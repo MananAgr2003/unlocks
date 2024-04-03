@@ -16,6 +16,7 @@
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.4",
     "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
     "lucide-react": "^0.363.0",
     "next": "14.1.4",
     "postcss": "8.4.38",

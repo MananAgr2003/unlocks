@@ -17,6 +17,8 @@ html {
 body{
   background-color: #0E1425;
   color: #ffffff;
+  max-width: 100vw;
+  overflow: hidden;
 }
 .program-card {
   @apply z-[1] w-[250px] max-w-[250px] gap-y-5 shadow-[2px_2px_0_0_white,3px_3px_0_1px_var(--bg\_dark)] text-[color:var(--white)] bg-[#030a21] flex-col flex relative p-8 rounded-2xl;

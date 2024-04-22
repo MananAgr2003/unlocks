@@ -46,21 +46,21 @@ export default function Page() {
           </div>
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
             <div className="mb-10 pb-4">
-              <div className="text-lg mb-1">Email address</div>
+              <div className="text-[1.25rem] font-[200] mb-1">Email address</div>
               <div className="relative">
                 <div style={{borderRadius:'4px',backgroundColor:'#3ACBBC'}} className="absolute top-2 left-2 w-full h-10"></div>
                 <input style={{borderRadius:'4px'}} className="absolute top-0 left-0 w-full text-black h-10 pl-8" type="text" placeholder="yourname@email.com" />
               </div>
             </div>
             <div className="mb-10 pb-4">
-              <div className="text-lg mb-1">Phone Number</div>
+              <div className="text-[1.25rem] font-[200] mb-1">Phone Number</div>
               <div className="relative">
                 <div style={{borderRadius:'4px',backgroundColor:'#3ACBBC'}} className="absolute top-2 left-2 w-full h-10"></div>
                 <input style={{borderRadius:'4px'}} className="absolute top-0 left-0 w-full h-10 pl-8 text-black" type="text" placeholder="9876543210" />
               </div>
             </div>
             <div style={{marginBottom:'10rem'}}>
-              <div className="text-lg mb-1">Your Message</div>
+              <div className="text-[1.25rem] font-[200] mb-1">Your Message</div>
               <div className="relative">
                 <div style={{borderRadius:'4px',backgroundColor:'#3ACBBC'}} className="absolute top-2 left-2 w-full h-32"></div>
                 <textarea style={{borderRadius:'4px'}} className="absolute top-0 left-0 text-black pt-2 w-full h-32 pl-8" placeholder="Click here to type"></textarea>
